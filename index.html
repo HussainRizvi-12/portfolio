@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Muhammad Hussain Raza · Full Stack Developer</title>
+    <meta name="title" content="Muhammad Hussain Raza · Full Stack Developer" />
+    <meta
+      name="description"
+      content="Muhammad Hussain Raza — Full Stack Developer building responsive, scalable and user-friendly web applications with the MERN stack, React and modern cloud technologies."
+    />
+    <meta
+      name="keywords"
+      content="Full Stack Developer, MERN Stack, React Developer, Node.js, Web Developer, Portfolio, Muhammad Hussain Raza"
+    />
+    <meta name="author" content="Muhammad Hussain Raza" />
+    <meta name="theme-color" content="#060812" />
+    <meta name="color-scheme" content="dark light" />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Muhammad Hussain Raza · Full Stack Developer" />
+    <meta
+      property="og:description"
+      content="Building responsive, scalable and user-friendly web applications with modern technologies."
+    />
+    <meta property="og:image" content="https://images.pexels.com/photos/12969403/pexels-photo-12969403.jpeg?auto=compress&cs=tinysrgb&w=1200" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Muhammad Hussain Raza · Full Stack Developer" />
+    <meta
+      name="twitter:description"
+      content="Building responsive, scalable and user-friendly web applications with modern technologies."
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Prevent theme flash: apply stored theme before paint -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("portfolio-theme");
+          var theme = stored || "dark"; // dark is the default experience
+          if (theme === "dark") document.documentElement.classList.add("dark");
+        } catch (e) {
+          document.documentElement.classList.add("dark");
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
